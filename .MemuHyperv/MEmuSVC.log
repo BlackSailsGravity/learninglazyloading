@@ -1,0 +1,42 @@
+MemuHyperv COM Server 5.1.34 r121010 win.amd64 (Jun 20 2019 17:06:43) release log
+00:00:10.015961 main     Log opened 2019-09-28T01:04:44.587588700Z
+00:00:10.015961 main     Build Type: release
+00:00:10.015961 main     OS Product: Windows 10
+00:00:10.015961 main     OS Release: 10.0.18362
+00:00:10.015961 main     OS Service Pack: 
+00:00:10.024955 main     DMI Product Name: X570 AORUS ELITE
+00:00:10.028964 main     DMI Product Version: -CF
+00:00:10.028964 main     Host RAM: 16332MB (15.9GB) total, 11117MB (10.8GB) available
+00:00:10.028964 main     Executable: D:\Memu\MEmuHyperv\MEmuSVC.exe
+00:00:10.028964 main     Process ID: 8884
+00:00:10.028964 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:10.064780          MemuHyperv: object creation starts
+00:00:10.064780          Home directory: 'C:\Users\Gravity\.MemuHyperv'
+00:00:10.065772          Installed Drivers:
+00:00:10.068772            C:\Windows\system32\DRIVERS\MEmuDrv.sys (Version: 5.1.34.21010)
+00:00:10.068772          Loading settings file "C:\Users\Gravity\.MemuHyperv\MemuHyperv.xml" with version "1.12-windows"
+00:00:10.069773          USBLibInit: USB Service not found
+00:00:10.114147          netIfGetBoundAdapters: could not find either 'maiwei_MEmuNetLwf' or 'sun_MEmuNetFlt' components (0x1)
+00:00:10.119148          HostDnsMonitor: old information
+00:00:10.119148            no server entries
+00:00:10.119148            no domain set
+00:00:10.119148            no search string entries
+00:00:10.119148          HostDnsMonitor: new information
+00:00:10.119148            server 1: 176.103.130.130
+00:00:10.119148            server 2: 176.103.130.131
+00:00:10.119148            domain: Dlink
+00:00:10.119148            no search string entries
+00:00:10.119148          HostDnsMonitorProxy::notify
+00:00:10.119148          SUPR0QueryVTCaps -> VERR_SVM_DISABLED
+00:00:10.119148          VD: VDInit finished
+00:00:10.119148          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030a} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:10.120148          Loading settings file "D:\Memu\MEmu\MemuHyperv VMs\MEmu\MEmu.memu" with version "1.12-windows"
+00:00:10.121149          Loading settings file "D:\Memu\MEmu\MemuHyperv VMs\MEmu_1\MEmu_1.memu" with version "1.12-windows"
+00:00:10.121149          MemuHyperv: object created
+00:00:21.326208 main     MemuHyperv: object deletion starts
+00:00:21.326208 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'D:\Memu\MEmu\MemuHyperv VMs\MEmu\MEmu51-2019090500003FFF-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:21.326208 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'D:\Memu\MEmu\MemuHyperv VMs\MEmu\MEmu51-2019090500003FFF-disk2.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:21.326208 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'D:\Memu\MEmu\MemuHyperv VMs\MEmu_1\MEmu51-2019090500003FFF-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:21.326208 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'D:\Memu\MEmu\MemuHyperv VMs\MEmu_1\MEmu51-2019090500003FFF-disk2.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:21.327200 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd94a} aComponent={MemuHypervWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:21.327200 main     MemuHyperv: object deleted
